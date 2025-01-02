@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "verify": "turbo verify",
+    "build": "turbo build",
+    "docgen": "turbo docgen",
+    "prepare": "husky",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^3.12.1",
+    "eslint": "^9.17.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "turbo": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "22"
+  },
+  "packageManager": "pnpm@9.15.2"
+}
