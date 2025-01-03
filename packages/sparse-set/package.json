@@ -1,0 +1,43 @@
+{
+  "name": "@astrocreep/sparse-set",
+  "version": "0.1.0",
+  "description": "sparse set implementation",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "main": "./dist/sparse-set.js",
+  "module": "./dist/sparse-set.js",
+  "types": "./dist/sparse-set.d.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sparse-set.js"
+    }
+  },
+  "author": "Florian Hofmann",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrocreep/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astrocreep/utils/issues"
+  },
+  "keywords": [
+    "collection",
+    "data-structure",
+    "sparse-set",
+    "gamedev"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "workspace: *",
+    "@vitest/coverage-v8": "2.1.8",
+    "keep-a-changelog": "^2.5.3",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
